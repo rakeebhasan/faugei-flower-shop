@@ -22,8 +22,13 @@ body {
 
 :root {
 	--spanColor: #e95a08;
-	--black: #000;
+	--black: #030303;
 	--white: #fff;
+	--notoFont: "Noto Serif", serif;
+}
+
+.spanColor {
+	color: #e95a08;
 }
 
 .container {
@@ -88,4 +93,34 @@ HEADER AREA CSS HERE
 
 .navbar ul li:last-child a {
 	color: var(--black);
+}
+
+/*=======================
+BANNER AREA CSS HERE
+=========================*/
+.banner-area {
+	padding-top: 221px;
+	padding-bottom: 120px;
+}
+
+.banner-wrpper {
+	align-items: end;
+}
+
+.banner-content,
+.banner-img {
+	flex: 1;
+}
+
+.banner-content h1 {
+	color: var(--black);
+	font-family: var(--notoFont);
+	font-size: 65px;
+	font-weight: 700;
+	margin-bottom: 13px;
+}
+
+.banner-img img {
+	width: 100%;
+	display: block;
 }

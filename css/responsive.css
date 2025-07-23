@@ -5,14 +5,33 @@ LARGE SCREEN RESPONSIVE DESING
 	.container {
 		max-width: 960px;
 	}
+
+	.banner-area {
+		padding-top: 110px;
+		padding-bottom: 70px;
+	}
+	.banner-content h1 {
+		font-size: 50px;
+	}
 }
 
 /*=================================
 TABLET SCREEN RESPONSIVE DESING
 ===================================*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
+	body {
+		font-size: 18px;
+	}
 	.container {
 		max-width: 720px;
+	}
+
+	.banner-area {
+		padding-top: 50px;
+		padding-bottom: 40px;
+	}
+	.banner-content h1 {
+		font-size: 35px;
 	}
 }
 
@@ -20,6 +39,9 @@ TABLET SCREEN RESPONSIVE DESING
 SMALL SCREEN RESPONSIVE DESING
 ===================================*/
 @media screen and (max-width: 767px) {
+	body {
+		font-size: 14px;
+	}
 	.plr {
 		padding-left: 15px;
 		padding-right: 15px;
@@ -34,5 +56,17 @@ SMALL SCREEN RESPONSIVE DESING
 	.navbar ul li:nth-child(2),
 	.navbar ul li:nth-child(3) {
 		display: none;
+	}
+
+	.banner-area {
+		padding-top: 28px;
+		padding-bottom: 65px;
+	}
+	.banner-wrpper {
+		flex-direction: column-reverse;
+		gap: 28px;
+	}
+	.banner-content h1 {
+		font-size: 24px;
 	}
 }
