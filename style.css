@@ -39,6 +39,15 @@ body {
 .btn-primary {
 	padding: 26px 50px;
 	background: #e95a08;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	width: 100%;
+}
+
+button {
+	cursor: pointer;
 }
 
 .flex {
@@ -123,4 +132,57 @@ BANNER AREA CSS HERE
 .banner-img img {
 	width: 100%;
 	display: block;
+}
+
+/*=======================
+OUR PLANTS AREA CSS HERE
+=========================*/
+.section-title {
+	text-align: center;
+}
+
+.section-title h2 {
+	color: var(--black);
+	font-family: var(--notoFont);
+	font-size: 50px;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+
+.section-title p {
+	max-width: 888px;
+	margin: auto;
+}
+
+.plants-row {
+	padding-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: 20px;
+	row-gap: 30px;
+}
+
+.single-plant-card {
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+	text-align: center;
+}
+
+.single-plant-card img {
+	width: 100%;
+}
+
+.plant-name-price h2 {
+	color: #111;
+	font-weight: 500;
+	line-height: 150%;
+	font-size: 22px;
+}
+
+.plant-name-price h3 {
+	color: #111;
+	font-weight: 700;
+	line-height: 150%;
+	font-size: 22px;
 }

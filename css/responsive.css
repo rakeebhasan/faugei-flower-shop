@@ -13,6 +13,13 @@ LARGE SCREEN RESPONSIVE DESING
 	.banner-content h1 {
 		font-size: 50px;
 	}
+
+	.plants-row {
+		padding-top: 30px;
+	}
+	.single-plant-card {
+		row-gap: 15px;
+	}
 }
 
 /*=================================
@@ -32,6 +39,16 @@ TABLET SCREEN RESPONSIVE DESING
 	}
 	.banner-content h1 {
 		font-size: 35px;
+	}
+
+	.plants-row {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.plants-row {
+		padding-top: 30px;
+	}
+	.single-plant-card {
+		row-gap: 15px;
 	}
 }
 
@@ -68,5 +85,31 @@ SMALL SCREEN RESPONSIVE DESING
 	}
 	.banner-content h1 {
 		font-size: 24px;
+	}
+
+	.plants-row {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.plants-row {
+		padding-top: 20px;
+		column-gap: 10px;
+		row-gap: 15px;
+	}
+	.single-plant-card {
+		row-gap: 15px;
+	}
+	.section-title h2 {
+		font-size: 40px;
+	}
+	.section-title p {
+		padding: 0 14.5px;
+	}
+	.plant-name-price h2,
+	.plant-name-price h3 {
+		font-size: 16px;
+	}
+	.btn-primary {
+		padding: 15px 10px;
+		font-size: 14px;
 	}
 }
