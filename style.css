@@ -14,8 +14,8 @@ COMMON CSS HERE
 
 body {
 	font-family: "Inter", sans-serif;
+	background: #f5f8ff;
 	color: rgba(0, 0, 0, 0.5);
-	text-align: center;
 	font-size: 22px;
 	font-weight: 400;
 }
@@ -34,4 +34,58 @@ body {
 .btn-primary {
 	padding: 26px 50px;
 	background: #e95a08;
+}
+
+.flex {
+	display: flex;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+/*=======================
+HEADER AREA CSS HERE
+=========================*/
+.header-area {
+	padding-top: 30px;
+}
+
+.logo-card a img {
+	width: 135px;
+}
+
+.navbar ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 48px;
+}
+
+.navbar ul li a {
+	color: #8987a1;
+	font-size: 16px;
+	line-height: 150%;
+	text-decoration: none;
+	transition: color ease 0.2s;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.navbar ul li a:hover {
+	color: #252432;
+}
+
+.navbar ul #active a {
+	color: #252432;
+	font-weight: 700;
+}
+
+.navbar ul li:last-child a {
+	color: var(--black);
 }
