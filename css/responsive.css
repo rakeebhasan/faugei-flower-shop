@@ -33,6 +33,11 @@ LARGE SCREEN RESPONSIVE DESING
 	.lates-deals-products {
 		padding: 60px 0;
 	}
+
+	.join-bunch-area {
+		padding-top: 113px;
+		padding-bottom: 120px;
+	}
 }
 
 /*=================================
@@ -98,6 +103,11 @@ TABLET SCREEN RESPONSIVE DESING
 	}
 	.lates-deal-single-product:nth-child(2) .cntn-box a {
 		font-size: 20px;
+	}
+
+	.join-bunch-area {
+		padding-top: 113px;
+		padding-bottom: 120px;
 	}
 }
 
@@ -189,15 +199,27 @@ SMALL SCREEN RESPONSIVE DESING
 		row-gap: 10px;
 	}
 	.lates-deal-single-product:nth-child(2) .cntn-box h2 {
-		font-size: 27px;
+		font-size: 20px;
 	}
 	.lates-deal-single-product:nth-child(2) .cntn-box a {
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.lates-deal-single-product:nth-child(2) {
 		order: 3;
 	}
 	.lates-deal-single-product:nth-child(3) {
 		order: 2;
+	}
+
+	.join-bunch-area {
+		padding-top: 80px;
+		padding-bottom: 90px;
+	}
+	.join-bunch-wrpper h2 {
+		font-size: 42px;
+		margin-bottom: 15px;
+	}
+	.join-bunch-wrpper form input[type="submit"] {
+		padding: 18px 20px;
 	}
 }

@@ -306,3 +306,52 @@ LATEST DEALS AREA CSS HERE
 .lates-deal-single-product:nth-child(2) .cntn-box a {
 	font-size: 28px;
 }
+
+/*=======================
+JOIN BUNCH AREA CSS HERE
+=========================*/
+.join-bunch-area {
+	padding-top: 200px;
+	padding-bottom: 193px;
+	background: url(images/join-bunch-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.join-bunch-wrpper {
+	max-width: 830px;
+	margin: auto;
+}
+
+.join-bunch-wrpper h2 {
+	color: var(--white);
+	text-align: center;
+	font-family: var(--notoFont);
+	font-size: 50px;
+	font-weight: 700;
+	margin-bottom: 23px;
+}
+
+.join-bunch-wrpper form {
+	display: flex;
+}
+
+.join-bunch-wrpper form input[type="email"] {
+	padding: 8px 20px;
+	background: var(--white);
+	color: rgba(0, 0, 0, 0.5);
+	border: none;
+	outline: none;
+	width: 100%;
+}
+
+.join-bunch-wrpper form input[type="submit"] {
+	color: var(--white);
+	font-size: 16px;
+	font-weight: 600;
+	background: #e95a08;
+	border: none;
+	outline: none;
+	padding: 18px 50px;
+	cursor: pointer;
+}
