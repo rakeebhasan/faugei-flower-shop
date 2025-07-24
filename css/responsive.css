@@ -109,6 +109,13 @@ TABLET SCREEN RESPONSIVE DESING
 		padding-top: 113px;
 		padding-bottom: 120px;
 	}
+
+	.quick-links {
+		column-gap: 50px;
+	}
+	.social-links ul {
+		gap: 10px;
+	}
 }
 
 /*=================================
@@ -174,7 +181,7 @@ SMALL SCREEN RESPONSIVE DESING
 
 	.plant-lover-area {
 		padding-top: 40px;
-		padding-bottom: 30px;
+		padding-bottom: 60px;
 	}
 	.plant-lover-wrpper {
 		grid-template-columns: repeat(1, 1fr);
@@ -221,5 +228,21 @@ SMALL SCREEN RESPONSIVE DESING
 	}
 	.join-bunch-wrpper form input[type="submit"] {
 		padding: 18px 20px;
+	}
+
+	.footer-wrpper {
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
+	.quick-links {
+		column-gap: 0px;
+		flex-direction: column;
+		row-gap: 20px;
+	}
+	.social-links ul {
+		justify-content: flex-start;
+	}
+	.footer-logo p {
+		padding-right: 20px;
 	}
 }
