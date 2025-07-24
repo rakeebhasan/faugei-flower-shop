@@ -244,3 +244,65 @@ PLANT LOVER AREA CSS HERE
 	row-gap: 20px;
 	padding-top: 20px;
 }
+
+/*=======================
+LATEST DEALS AREA CSS HERE
+=========================*/
+.lates-deals-products {
+	padding: 120px 0;
+	display: grid;
+	column-gap: 28px;
+	row-gap: 25px;
+	grid-template-rows: auto auto;
+	grid-template-columns: 1fr 2fr;
+}
+
+.lates-deal-single-product img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 14px;
+}
+
+.lates-deal-single-product:nth-child(2) {
+	grid-row: span 2;
+}
+
+.cntn-box h2 {
+	color: var(--white);
+	text-align: center;
+	font-family: var(--notoFont);
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.cntn-box a {
+	color: var(--white);
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.lates-deal-single-product {
+	position: relative;
+}
+
+.cntn-box {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.lates-deal-single-product:nth-child(2) .cntn-box h2 {
+	font-size: 40px;
+}
+
+.lates-deal-single-product:nth-child(2) .cntn-box a {
+	font-size: 28px;
+}
