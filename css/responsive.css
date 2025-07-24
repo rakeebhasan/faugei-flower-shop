@@ -219,15 +219,15 @@ SMALL SCREEN RESPONSIVE DESING
 	}
 
 	.join-bunch-area {
-		padding-top: 80px;
-		padding-bottom: 90px;
+		padding-top: 110px;
+		padding-bottom: 65px;
 	}
 	.join-bunch-wrpper h2 {
-		font-size: 42px;
+		font-size: 25px;
 		margin-bottom: 15px;
 	}
 	.join-bunch-wrpper form input[type="submit"] {
-		padding: 18px 20px;
+		padding: 15px 20px;
 	}
 
 	.footer-wrpper {
