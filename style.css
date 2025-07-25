@@ -343,6 +343,8 @@ JOIN BUNCH AREA CSS HERE
 	border: none;
 	outline: none;
 	width: 100%;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 .join-bunch-wrpper form input[type="submit"] {
